@@ -18,9 +18,14 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        Summarize Articles with <br />
+        Summarize Articles with <br className="max=md:hidden" />
         <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
+      <h2 className="desc">
+        Harness the power of AI to turn long articles into clear, concise
+        summaries. Stay up-to-date and make reading effortless with our advanced
+        summarization tool.
+      </h2>
     </header>
   );
 };
